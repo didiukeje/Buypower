@@ -607,6 +607,13 @@ p {
   margin-right: 10px;
   border: 0;
 }
+@media (max-width: 600px) {
+.section-testimonial {
+  display: block;
+  }
+  .contain .section-testimonial-container {
+    flex-direction: column;
+  }
 .service-provider {
   padding: 83px 0;
   background-color: #f5f6fa; 
