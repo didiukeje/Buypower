@@ -87,6 +87,7 @@ a {
   color: #8ca23b; 
   cursor: pointer;
 }
+/*Header starts here*/
 header {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 1% 0;
@@ -344,19 +345,9 @@ li {
     }
   }
 }
+/*Header ends here*/
 
-.green{
-  background-color: #8ca23b;
-  padding: 15px;
-  font-weight: 600;
-  border-radius: 3px; 
-  font-size: 100%;
-  border: 1px solid #8ca23b;
-}
-.green:hover{
-  background: #f7b418;
-  border: 1px solid #f7b418;
-}
+/*Background image section starts here*/
 .contain{
   font-family: Open Sans, sans-serif;
   margin-left: auto;
@@ -572,6 +563,9 @@ form
     margin-top: 30px;
 }
 }
+/*Background image section ends here*/
+
+/*First section starts here*/
 .section-1 p {
   font-style: normal;
   font-size: 30px;
@@ -648,6 +642,9 @@ p {
   height: fit-content;
 }
 }
+/*First section ends here*/
+
+/*Second section starts here*/
 .section-2 {
   background-color: #f7b418; 
   padding-top: 15px;
@@ -764,6 +761,9 @@ a {
     align-items: center;
   }
 }
+  /*Second section  ends here*/ 
+  
+  /*Section mobile starts here*/
 img {
   border: 0;
 }
@@ -811,18 +811,9 @@ img {
       padding-top: 10px;
       padding-bottom: 30px;
   }
-  
- header .logo {
-    width: 195px;
-    height: 52.5px;
-}
   .contain {
     margin-left: 10px; 
     margin-right: 10px;
-  }
-  form h1 {
-    margin-top: 30px;
-  
   }
   .checkoutimg img {
     width: 176px;
@@ -917,6 +908,9 @@ img {
     font-size: 26px;
   }
 }
+  /*Section mobile ends here*/
+  
+  /*Section bills starts here*/
 .section-bills {
   display: flex;
   background-color: #f5f6fa;
@@ -1009,6 +1003,9 @@ img {
     box-sizing: border-box;
 }
 }
+  /*Section bills ends here*/
+  
+  /*Footer starts here*/
 .footer {
   background-color: #000;
   color: #fff;
@@ -1101,3 +1098,4 @@ footer a {
 .footer--container>div a:hover {
   color: #f7b418;
 }
+  /*Footer ends here*/
